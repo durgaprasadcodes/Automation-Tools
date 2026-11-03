@@ -1,3 +1,4 @@
 pathlib
 asyncio
-logging 
+logging
+python-dotenv
