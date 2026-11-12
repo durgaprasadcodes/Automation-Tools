@@ -1,0 +1,22 @@
+{
+    "name": "Durga Prasad Kota",
+    "role": "Python Full-Stack Developer",
+    "skills": [
+        "Python",
+        "React.js",
+        "Django",
+        "FastAPI",
+        "Machine Learning"
+    ],
+    "education": {
+        "degree": "B.Tech",
+        "branch": "CSE - AIML",
+        "semester": 4
+    },
+    "is_student": true,
+    "projects": [
+        "Jarvis AI Assistant",
+        "DocuMind AI",
+        "Expense Tracker"
+    ]
+}

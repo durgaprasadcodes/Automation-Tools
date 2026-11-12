@@ -2,3 +2,5 @@ pathlib
 asyncio
 logging
 python-dotenv
+pymupdf 
+python-docx 
