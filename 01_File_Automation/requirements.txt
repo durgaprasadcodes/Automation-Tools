@@ -5,3 +5,5 @@ zipfile
 datetime
 json
 re
+tree-sitter-language-pack
+tinycss2

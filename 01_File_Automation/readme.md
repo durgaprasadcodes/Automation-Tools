@@ -39,3 +39,17 @@ FileAutomationTool
     ├── create_zip()
     └── extract_zip()
 ```
+
+```mermaid
+flowchart TD
+    A["User: Fix the bug in main.py"] --> B["Jarvis reads main.py"]
+    B --> C["Send code + instruction to LLM"]
+    C --> D["LLM identifies the bug"]
+    D --> E["LLM generates old_content and new_content"]
+    E --> F["Validate the proposed changes"]
+    F --> G{"User approval?"}
+    G -->|Yes| H["replace_content()"]
+    G -->|No| I["Cancel modification"]
+    H --> J["Validate Python syntax"]
+    J --> K["Report modification result"]
+```
